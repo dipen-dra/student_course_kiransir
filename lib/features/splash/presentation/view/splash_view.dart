@@ -38,7 +38,7 @@ class SplashView extends StatelessWidget {
             bottom: 10,
             left: MediaQuery.of(context).size.width / 4,
             child: const Text(
-              'Developed by: Khatra Sir le',
+              'Developed by: Maile',
               style: TextStyle(fontSize: 15),
             ),
           ),
