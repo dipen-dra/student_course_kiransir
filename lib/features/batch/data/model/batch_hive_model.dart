@@ -37,4 +37,8 @@ class BatchHiveModel extends Equatable {
 
   @override
   List<Object?> get props => [batchId, batchName];
+
+  static Future<List<BatchEntity>> toEntityList(List<BatchHiveModel> batches) async {
+    return toEntityList(batches);
+  }
 }

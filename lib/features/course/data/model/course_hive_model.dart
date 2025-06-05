@@ -11,7 +11,7 @@ part 'course_hive_model.g.dart';
 class CourseHiveModel extends Equatable {
   @HiveField(0)
   final String? courseId;
-
+  
   @HiveField(1)
   final String courseName;
 
